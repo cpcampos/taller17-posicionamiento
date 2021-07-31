@@ -12,16 +12,30 @@ P {
   background-color: #000;
   color: #fff;
   padding: 10px;
+  /*position:static;para que los hijos se comporten de una manera determinada, si se usa esto ignora el top y el left
+  position: relative;
+  top:20px;
+  left:-40px;*/
+  position: relative;
+  height: 250px;
 }
 
 #div-1a {
   background-color: #d33;
   color: #fff;
+  position: absolute;
+  top:0px;
+  right:0px;
+  width:50%;
 }
 
 #div-1b {
   background-color: #3d3;
   color: #fff;
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 50%;
 }
 
 #div-1c {
